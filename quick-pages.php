@@ -11,7 +11,7 @@
 add_action('admin_menu', 'admin_init');
 
 function admin_init(){
-	add_pages_page("WP Quick Pages", "WP Quick Pages", "read", "wp-quick-pages", array('WPQuickPages', 'quick_pages'));
+	add_pages_page("WP-Quick-Pages", "WP-Quick-Pages", "read", "wp-quick-pages", array('WPQuickPages', 'quick_pages'));
 }
 
 
